@@ -1,0 +1,22 @@
+{
+  "name": "@yandu/plugin-feed-rss",
+  "version": "1.0.0",
+  "description": "Yandu plugin: RSS Feed",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "yandu": { "main": "./dist/index.js" },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@yandu/types": "^0.0.4",
+    "typescript": "^5.6.0"
+  },
+  "publishConfig": { "access": "public" }
+}
