@@ -7,7 +7,7 @@ import type {
   FetchResult,
   FeedEntry,
   FormatCapability,
-  PaperExternalIds,
+  ItemExternalIds,
 } from '@yandu/types';
 
 const rssParser = new Parser();
@@ -93,7 +93,7 @@ class RssFeedAdapter implements FeedAdapter {
     };
   }
 
-  resolveDownload(externalIds: PaperExternalIds): {
+  resolveDownload(externalIds: ItemExternalIds): {
     url: string;
     format: string;
     priority: number;
