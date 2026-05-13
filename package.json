@@ -1,5 +1,5 @@
 {
-  "name": "yandu-plugin-feed-rss",
+  "name": "@yandu/plugin-feed-rss",
   "version": "1.0.0",
   "description": "Yandu plugin: RSS Feed",
   "type": "module",

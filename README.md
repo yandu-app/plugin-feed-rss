@@ -1,9 +1,9 @@
-# yandu-plugin-feed-rss
+# @yandu/plugin-feed-rss
 
 Yandu plugin for generic RSS/Atom feed.
 
 ## Installation
 
 ```bash
-npm install yandu-plugin-feed-rss
+npm install @yandu/plugin-feed-rss
 ```
